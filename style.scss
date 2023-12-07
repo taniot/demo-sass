@@ -1,0 +1,28 @@
+$main_color: violet;
+
+@mixin container($width: 1000px) {
+  width: $width;
+  margin: 0 auto;
+}
+
+body {
+  background-color: red;
+  font-size: 2rem;
+}
+
+div {
+  background-color: white;
+  @include container;
+
+  a {
+    color: $main_color;
+  }
+
+  &.ciao {
+    height: 50px;
+  }
+
+  &.small {
+    @include container(500px);
+  }
+}

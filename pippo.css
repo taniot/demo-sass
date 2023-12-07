@@ -1,0 +1,22 @@
+body {
+  background-color: red;
+  font-size: 2rem;
+}
+
+div {
+  background-color: white;
+  width: 1000px;
+  margin: 0 auto;
+}
+div a {
+  color: violet;
+}
+div.ciao {
+  height: 50px;
+}
+div.small {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=pippo.css.map */
